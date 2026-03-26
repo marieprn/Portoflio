@@ -20,7 +20,7 @@ function Hero() {
         </div>
       </div>
       <div className={styles.right}>
-        <div className={styles.photo}>C</div>
+        <div className={styles.photo}>M</div>
         <div className={styles.stack}>
           <span>React</span>
           <span>SCSS</span>
