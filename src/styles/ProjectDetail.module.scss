@@ -1,0 +1,142 @@
+@use 'variables' as *;
+
+.detail {
+  background: $cream;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  min-height: 100vh;
+}
+
+.back {
+  font-size: 14px;
+  color: $terra;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+
+  &:hover { opacity: 0.7; }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tag {
+  font-size: 11px;
+  font-weight: 500;
+  color: $terra;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  font-family: $font-serif;
+  font-size: 42px;
+  color: $brown;
+  line-height: 1.2;
+}
+
+.desc {
+  font-size: 16px;
+  color: lighten($brown, 20%);
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+.stack {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tech {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: rgba($sage, 0.15);
+  color: $sage;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.btnPrimary {
+  background: $terra;
+  color: $cream;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s;
+
+  &:hover { opacity: 0.85; }
+}
+
+.btnSecondary {
+  background: transparent;
+  color: $brown;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1.5px solid rgba($brown, 0.2);
+  transition: border-color 0.2s;
+
+  &:hover { border-color: rgba($brown, 0.6); }
+}
+
+.img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 1px solid rgba($brown, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 40px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h2 {
+    font-family: $font-serif;
+    font-size: 22px;
+    color: $brown;
+  }
+
+  p {
+    font-size: 15px;
+    color: lighten($brown, 20%);
+    line-height: 1.8;
+  }
+}
+
+.notFound {
+  padding: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+
+  a {
+    color: $terra;
+    font-weight: 500;
+  }
+}
