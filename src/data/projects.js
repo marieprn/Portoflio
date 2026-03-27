@@ -2,26 +2,43 @@ const projects = [
   {
     slug: 'kasa',
     title: 'Kasa',
-    description: 'Refonte frontend d\'une plateforme de location immobilière',
+    description: "Refonte frontend d'une plateforme de location immobilière",
     stack: ['React', 'React Router', 'SASS'],
-    image: '/images/Kasa/Kasa1.webp',
+
+    images: [
+      '/images/Kasa/Kasa1.webp',
+      '/images/Kasa/Kasa2.webp',
+      '/images/Kasa/Kasa3.webp',
+    ],
+
     github: 'https://github.com/marieprn/Kasa-my-React-App',
     live: 'https://kasa-my-react-q1ioirn6r-marieprns-projects.vercel.app/',
-    context: 'Mission freelance fictive pour Kasa, leader français de la location entre particuliers.',
-    role: 'Développer entièrement le front-end React à partir des maquettes Figma fournies.',
-    challenge: 'Gérer la logique de la galerie d\'images avec défilement circulaire et affichage conditionnel.',
+    context:
+      'Mission freelance fictive pour Kasa, leader français de la location entre particuliers.',
+    role:
+      'Développer entièrement le front-end React à partir des maquettes Figma fournies.',
+    challenge:
+      "Gérer la logique de la galerie d'images avec défilement circulaire.",
   },
+
   {
     slug: 'nina-carducci',
     title: 'Nina Carducci',
     description: 'Optimisation SEO, performance et accessibilité',
     stack: ['HTML', 'CSS', 'JavaScript', 'Lighthouse'],
-    image: '/images/Nina/Nina1.webp',
+
+    images: [
+      '/images/Nina/Nina1.webp',
+      '/images/Nina/Nina2.webp',
+    ],
+
     github: 'https://github.com/marieprn/Nina-Carducci',
     live: 'https://nina-carducci-steel.vercel.app/',
-    context: 'Mission freelance fictive pour Nina Carducci, photographe à Bordeaux.',
-    role: 'Auditer le site, identifier tous les problèmes et les corriger.',
-    challenge: 'Prioriser les corrections ayant le plus d\'impact sur les scores Lighthouse.',
+    context:
+      'Mission freelance fictive pour une photographe à Bordeaux.',
+    role: 'Audit + optimisation du site.',
+    challenge:
+      "Prioriser les corrections ayant le plus d'impact Lighthouse.",
   },
 ]
 
