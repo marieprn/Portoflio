@@ -7,8 +7,6 @@ const projects = [
 
     images: [
       '/images/Kasa/Kasa1.webp',
-      '/images/Kasa/Kasa2.webp',
-      '/images/Kasa/Kasa3.webp',
     ],
 
     github: 'https://github.com/marieprn/Kasa-my-React-App',
@@ -29,7 +27,6 @@ const projects = [
 
     images: [
       '/images/Nina/Nina1.webp',
-      '/images/Nina/Nina2.webp',
     ],
 
     github: 'https://github.com/marieprn/Nina-Carducci',
