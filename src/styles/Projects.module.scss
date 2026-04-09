@@ -18,11 +18,15 @@
 }
 
 .tag {
-  font-size: 11px;
+  font-size: 50px;
+  padding: 10px;
   font-weight: 500;
   color: $terra;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  text-align: center;
+  display: block;
+  margin-bottom: 8px;
 }
 
 .grid {
@@ -111,7 +115,7 @@
 
 .btnPrimary {
   background: $terra;
-  color: $cream;
+  color: $brown;
   padding: 10px 20px;
   border-radius: $radius-xl;
   font-size: 13px;
